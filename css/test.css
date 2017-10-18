@@ -1,0 +1,60 @@
+html{
+	margin: 0; 
+	padding: 0;
+}
+body { 
+    margin: 0; 
+	padding: 0;
+    padding-bottom: 70px; 
+}
+.navbar {
+	margin-bottom: 0;
+}
+.jumbotron {
+	background: #191A19;
+	color: white;
+	text-align: center;
+}
+.jumbotron p {
+	color: white;
+	font-size: 26px;
+}
+.btn-primary {
+	color: #fff;
+	background-color: transparent;
+	border-color: #bf9b30;
+	margin-bottom: 5px;
+}
+.btn-primary:hover {
+	color: black;
+	background-color: white;
+	border-color: #bf9b30;
+}
+.navbar-inverse {
+	background: #000000;
+	border: 0;
+}
+.navbar-inverse .navbar-nav li a {
+	color: #f7f7f7;
+	font-size: 16px;
+}
+.navbar-inverse .navbar-nav li a:hover {
+    /* background: #27A967; */
+    /* border-style: solid; */
+    border-bottom: thick solid #bf9b30;
+}
+.navbar-inverse .navbar-brand {
+    color: #fff;
+    /* text-transform: uppercase; */
+    font-family: 'Dancing Script', 'Arial', cursive;
+    font-size: 20px;
+}
+.projects {
+    text-align: center;
+    background: #000000;
+}
+.projects p {
+	margin-bottom: 30px;
+	font-family: sans-serif;
+}
+
