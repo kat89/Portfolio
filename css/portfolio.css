@@ -137,3 +137,25 @@ img{
 .row-m-t{
     margin-top : 100px;
   }
+  #projects h3{
+	color: white;
+    font-size: 26px;
+    line-height: 30px;
+    text-decoration: underline;
+    letter-spacing: 1px;
+}
+#projects img{
+        margin-top: 10px;
+        width: 430px;
+        height: 190px;
+}
+#projects p {
+	color: white;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+hr {
+	border-top: 1px solid #8c8b8b;
+	border-bottom: 1px solid #fff;
+}
