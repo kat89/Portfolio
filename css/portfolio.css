@@ -8,10 +8,14 @@ html, body {
 }
 body { 
     padding-bottom: 70px; 
+    font-family: "Merriweather", Georgia, Times, serif; 
+    font-size: 1em;
+    line-height: 1.5;
+    
 }
 .navbar {
     margin-bottom: 0;
-    min-height: 70px;
+    
 }
 #top {
 	background: #191A19;
@@ -28,7 +32,8 @@ body {
 	color: #fff;
 	background-color: black;
 	border-color: #bf9b30;
-	margin-bottom: 5px;
+    margin-bottom: 5px;
+    letter-spacing: .03em;
 }
 #hire:hover{
     background-color: transparent; 
@@ -42,12 +47,16 @@ body {
 	background: #000000;
     border: 0;
     opacity: 0.5;
+    min-height: 70px;
 }
 .navbar-inverse .navbar-nav li a {
 	color: #f7f7f7;
 	font-size: 16px;
 }
 .navbar-inverse .navbar-nav li a:hover {
+    border-bottom: thick solid #bf9b30;
+}
+.navbar-inverse .navbar-nav li a:active { 
     border-bottom: thick solid #bf9b30;
 }
 .navbar-inverse .navbar-brand {
@@ -62,7 +71,6 @@ body {
 #projects {
     text-align: center;
     background: #000000;
-    height: 500px;
     overflow: auto;
     padding-bottom: 50px;
     min-height: 100vh;
@@ -104,6 +112,7 @@ h3, alt {
 .social-box {
     list-style-type: none;
     display: flex;
+    justify-content: space-around;  
 }
 .pull-right {
     float: right !important;
@@ -114,12 +123,19 @@ h3, alt {
 .icon {
     color: #191A19;
     font-size: 2em;
+    margin-left: 50px;
+}
+.navbar .navbar-default .navbar-static-bottom {
+    vertical-align: middle;
+    text-align: center;
+    height: 20px;
 }
 #top{
     background-image: url(../img/coffe-mac-copy-op.png);
     padding: 10em 0;
     background-size: cover;
 }
+
 img{
     max-width: 100%;
     height: auto;
@@ -164,11 +180,12 @@ hr {
     margin-bottom: .65em;
     color: white;
     letter-spacing: .03em;
-    margin-top: 0;
+    margin-top: 7px;
     text-align: center;
-    font-weight: normal;
-    font-family: "Novecento Sans Wide Demibold", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
     line-height: 1;
+    text-transform: uppercase;
 }
 /*Contact */
 #contact{
@@ -228,13 +245,13 @@ hr {
   }
 
   .form:hover{
-    border:1px solid #8BC3A3;
+    border:1px solid #995A19;
   }
 
   .form:focus{
     color: white;
     outline: none;
-    border:1px solid #8BC3A3;
+    border:1px solid #995A19;
   }
 
   .textarea{
@@ -245,30 +262,5 @@ hr {
   .section {
     padding: 6em 0;
 }
-.container .bottom {
-    
-}
+
   
-/* Generic Button Styles */
-
-  /* .button{
-    padding:8px 12px;
-    background:#0A5175;
-    display: block;
-    width:120px;
-    margin:10px 0 0px 0;
-    border-radius:3px;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s;
-    text-align:center;
-    font-size:0.8em;
-    box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
-    -moz-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
-    -webkit-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
-  }
-
-  .button:hover{
-    background:#8BC3A3;
-    color:white;
-  } */
