@@ -1,13 +1,12 @@
 *{
     box-sizing: border-box;
 }
-html {
+html, body {
 	margin: 0; 
-	padding: 0;
+    padding: 0;
+    height: 100%;
 }
 body { 
-    margin: 0; 
-	padding: 0;
     padding-bottom: 70px; 
 }
 .navbar {
@@ -31,6 +30,9 @@ body {
 	border-color: #bf9b30;
 	margin-bottom: 5px;
 }
+#hire:hover{
+    background-color: transparent; 
+}
 .btn-primary:hover {
 	color: black;
 	background-color: white;
@@ -38,20 +40,18 @@ body {
 }
 .navbar-inverse {
 	background: #000000;
-	border: 0;
+    border: 0;
+    opacity: 0.5;
 }
 .navbar-inverse .navbar-nav li a {
 	color: #f7f7f7;
 	font-size: 16px;
 }
 .navbar-inverse .navbar-nav li a:hover {
-    /* background: #27A967; */
-    /* border-style: solid; */
     border-bottom: thick solid #bf9b30;
 }
 .navbar-inverse .navbar-brand {
     color: #fff;
-    /* text-transform: uppercase; */
     font-family: 'Dancing Script', 'Arial', cursive;
     font-size: 25px;
 }
@@ -65,7 +65,8 @@ body {
     height: 500px;
     overflow: auto;
     padding-bottom: 50px;
-    height:1000
+    min-height: 100vh;
+    
 }
 #projects p {
 	margin-bottom: 30px;
@@ -86,9 +87,7 @@ body {
 p {
     display: block;
 }
-/* .card {
-    background: white;
-} */
+
 h3, alt {
     color: white;
 }
@@ -119,15 +118,11 @@ h3, alt {
 #top{
     background-image: url(../img/coffe-mac-copy-op.png);
     padding: 10em 0;
-    /* height: 800px; */
     background-size: cover;
 }
 img{
     max-width: 100%;
     height: auto;
-}
-.card{
-    border: 5px solid white;
 }
 
 .card-block{
@@ -156,6 +151,124 @@ img{
     letter-spacing: 1px;
 }
 hr {
-	border-top: 1px solid #8c8b8b;
-	border-bottom: 1px solid #fff;
+	border-top: 1px solid #bf9b30;
+    border-bottom: 1px solid #8c8b8b;
+    display: block;
+    margin-top:82px; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
+.white {
+    font-size: 4.1em;
+    margin-bottom: .65em;
+    color: white;
+    letter-spacing: .03em;
+    margin-top: 0;
+    text-align: center;
+    font-weight: normal;
+    font-family: "Novecento Sans Wide Demibold", Helvetica, Arial, sans-serif;
+    line-height: 1;
+}
+/*Contact */
+#contact{
+    background-color: #bf9b30;
+    padding: 10px 0 10px;
+  }
+
+  .contact-text{
+    margin:45px auto;
+  }
+
+/* Contact Form */
+
+  #contact .contact-form{
+    margin: 0 auto;
+    padding:25px 25px 0px 25px;
+  }
+
+  .mail-message-area{
+    width:100%;
+    padding:0 15px;
+  }
+
+  .mail-message{
+    width: 100%;
+    background:rgba(255,255,255, 0.8) !important;
+    transition: all 0.7s;
+    margin:0 auto;
+    border-radius: 0;
+  }
+
+  .not-visible-message{
+    height:0px;
+    opacity: 0;
+  }
+
+  .visible-message{
+    height:auto;
+    opacity: 1;
+    margin:25px auto 0;
+  }
+
+/* Input Styles */
+
+  .form{
+  	z-index: 1000;
+    width: 100%;
+    padding: 15px;
+    background:#F3F3F0;
+    border:1px solid rgba(0, 0, 0, 0.075);
+    margin-bottom:25px;
+    color:#727272 !important;
+    font-size:13px;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+  }
+
+  .form:hover{
+    border:1px solid #8BC3A3;
+  }
+
+  .form:focus{
+    color: white;
+    outline: none;
+    border:1px solid #8BC3A3;
+  }
+
+  .textarea{
+    height: 200px;
+    max-height: 200px;
+    max-width: 100%;
+  }
+  .section {
+    padding: 6em 0;
+}
+.container .bottom {
+    
+}
+  
+/* Generic Button Styles */
+
+  /* .button{
+    padding:8px 12px;
+    background:#0A5175;
+    display: block;
+    width:120px;
+    margin:10px 0 0px 0;
+    border-radius:3px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    text-align:center;
+    font-size:0.8em;
+    box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+    -moz-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+    -webkit-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+  }
+
+  .button:hover{
+    background:#8BC3A3;
+    color:white;
+  } */
